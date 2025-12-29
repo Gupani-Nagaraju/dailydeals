@@ -1,0 +1,136 @@
+/* Watch Filter Sidebar */
+.watch-filter-sidebar {
+  width: 300px;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #111111;
+  padding: 24px;
+  background: linear-gradient(145deg, #f8fafc, #e2e8f0);
+  height: fit-content;
+  border-radius: 16px;
+  box-shadow: 0 6px 24px rgba(59, 130, 246, 0.12);
+  border: 1px solid #cbd5e1;
+}
+
+/* Filter Sections - COMPACT spacing */
+.watch-filter-section {
+  margin-bottom: 16px;
+}
+
+.watch-filter-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #1e293b;
+  border-bottom: 2px solid #3b82f6;
+  padding-bottom: 6px;
+  letter-spacing: 0.5px;
+}
+
+/* Checkbox Rows - COMPACT spacing */
+.watch-checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 14px;
+  margin-bottom: 6px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+  font-weight: 500;
+}
+
+.watch-checkbox-row:hover {
+  background-color: #dbeafe;
+  transform: translateX(4px);
+}
+
+.watch-checkbox-row input {
+  width: 18px;
+  height: 18px;
+  accent-color: #3b82f6;
+}
+
+/* Price Inputs - COMPACT */
+.watch-price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.watch-price-box {
+  border: 2px solid #bfdbfe;
+  padding: 10px 16px;
+  font-size: 15px;
+  border-radius: 8px;
+  background: white;
+  min-width: 80px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.watch-price-separator {
+  font-size: 20px;
+  font-weight: bold;
+  color: #475569;
+}
+
+.watch-price-slider {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background: #e2e8f0;
+  outline: none;
+  accent-color: #3b82f6;
+  margin-bottom: 12px;
+}
+
+/* Filter Button */
+.watch-filter-button {
+  background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+  color: white;
+  border: none;
+  padding: 14px 28px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(59, 130, 246, 0.3);
+}
+
+.watch-filter-button:hover {
+  background: linear-gradient(135deg, #1d4ed8, #1e40af);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(59, 130, 246, 0.4);
+}
+
+/* Layout for Watchpage */
+.watchpage-layout {
+  display: flex;
+  gap: 24px;
+  max-width: 1600px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.watchpage-main {
+  flex: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .watchpage-layout {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .watch-filter-sidebar {
+    width: 100%;
+    padding: 20px;
+  }
+}

@@ -1,0 +1,99 @@
+.product-info {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.product-info h2 {
+  font-size: 26px;
+  font-weight: 700;
+  margin-bottom: 8px;
+  color: #222;
+}
+
+.product-info .desc {
+  font-size: 15px;
+  color: #555;
+  line-height: 1.5rem;
+}
+
+.product-info .price {
+  font-size: 24px;
+  font-weight: 700;
+  color: #ff6500;
+}
+
+.variant label {
+  font-weight: 500;
+  margin-right: 10px;
+}
+
+.variant select {
+  padding: 6px 12px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+}
+
+.quantity {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.quantity button {
+  width: 32px;
+  height: 32px;
+  font-size: 18px;
+  border-radius: 6px;
+  border: none;
+  background: #eee;
+  cursor: pointer;
+  transition: 0.2s ease;
+}
+
+.quantity button:hover {
+  background: #ddd;
+}
+
+.quantity span {
+  min-width: 25px;
+  text-align: center;
+  font-size: 16px;
+}
+
+.actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 20px;
+}
+
+.add-cart, .buy-now {
+  flex: 1;
+  padding: 12px 0;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  border: none;
+}
+
+.add-cart {
+  background: #ff6500;
+  color: #fff;
+}
+
+.add-cart:hover {
+  background: #e45a00;
+  transform: translateY(-2px);
+}
+
+.buy-now {
+  background: #222;
+  color: #fff;
+}
+
+.buy-now:hover {
+  background: #444;
+  transform: translateY(-2px);
+}

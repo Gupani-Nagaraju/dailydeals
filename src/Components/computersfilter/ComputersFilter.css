@@ -1,0 +1,73 @@
+/* sidebar container */
+.computers-filter-sidebar {
+  width: 260px;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #111111;
+}
+
+/* sections */
+.computers-filter-section {
+  margin-bottom: 24px;
+}
+
+.computers-filter-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* checkbox rows */
+.computers-checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.computers-checkbox-row input {
+  width: 16px;
+  height: 16px;
+}
+
+/* price section */
+.computers-price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.computers-price-box {
+  border: 1px solid #dddddd;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.computers-price-separator {
+  font-size: 18px;
+}
+
+.computers-price-slider {
+  width: 100%;
+  accent-color: #7b2cbf;
+  margin-bottom: 12px;
+}
+
+/* filter button */
+.computers-filter-button {
+  background-color: #7b2cbf;
+  color: #ffffff;
+  border: none;
+  padding: 8px 22px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.computers-filter-button:hover {
+  background-color: #9434eb;
+}

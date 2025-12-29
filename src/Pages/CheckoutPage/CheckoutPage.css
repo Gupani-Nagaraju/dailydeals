@@ -1,0 +1,203 @@
+/* PAGE */
+.checkout-page {
+  background: #f4f4f4;
+  padding: 70px 20px;
+  display: flex;
+  justify-content: center;
+  font-family: Inter, sans-serif;
+}
+
+/* MAIN LAYOUT */
+.checkout-layout {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+
+/* COMMON CARD */
+.card {
+  background: #fff;
+  border-radius: 14px;
+  padding: 40px;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.08);
+}
+
+/* LEFT / RIGHT WIDTH */
+.billing-card {
+  flex: 65%;
+}
+
+.order-card {
+  flex: 35%;
+}
+
+/* HEADINGS */
+.card h3 {
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+/* LABELS */
+label {
+  font-size: 14px;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* INPUTS */
+input {
+  width: 100%;
+  padding: 13px 14px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 1px solid #ddd;
+}
+
+input:focus {
+  outline: none;
+  border-color: #e53637;
+  box-shadow: 0 0 6px rgba(229,54,55,0.3);
+}
+
+/* TWO INPUTS ROW */
+.row-2 {
+  display: flex;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.row-2 > div {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ORDER LIST */
+.order-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 25px;
+}
+
+.order-list li {
+  display: flex;
+  justify-content: space-between;
+  padding: 14px 0;
+  border-bottom: 1px solid #eee;
+}
+
+.order-list .total {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+/* PAYMENT */
+.payment {
+  margin-top: 20px;
+}
+
+.payment label {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+}
+
+.payment input[type="radio"] {
+  width: auto;
+  margin: 0;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  accent-color: auto;
+}
+
+.payment input[type="radio"]:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.payment label:hover {
+  background: transparent !important;
+}
+
+/* CREATE ACCOUNT */
+.create-account {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  cursor: pointer;
+  background: transparent !important;
+  border: none !important;
+  box-shadow: none !important;
+  padding: 0 !important;
+  margin-top: 20px;
+}
+
+.create-account input[type="checkbox"] {
+  width: auto;
+  margin: 0;
+  outline: none !important;
+  box-shadow: none !important;
+  border: none !important;
+  accent-color: auto;
+}
+
+.create-account input[type="checkbox"]:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+
+.create-account:hover {
+  background: transparent !important;
+}
+
+/* BUTTON */
+.place-btn {
+  margin-top: 25px;
+  width: 100%;
+  padding: 15px;
+  background: #e53637;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.place-btn:hover {
+  background: #cc2e2f;
+}
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+  .checkout-layout {
+    flex-direction: column;
+  }
+
+  .row-2 {
+    flex-direction: column;
+  }
+}
+/* ===============================
+   TWO INPUTS ROW FIX
+================================ */
+.row-2 {
+  display: flex;
+  gap: 20px;         /* space between first/last name, zip/city, email/phone */
+}
+
+.row-2 > div {
+  flex: 1;
+  min-width: 0;      /* important to prevent overflow */
+}
+
+.row-2 input {
+  width: 100%;       /* ensure input fills its container */
+  box-sizing: border-box; /* include padding and border in width */
+}

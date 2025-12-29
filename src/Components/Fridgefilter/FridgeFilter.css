@@ -1,0 +1,113 @@
+/* Fridge Filter Sidebar */
+.fridge-filter-sidebar {
+  width: 260px;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #111111;
+  padding: 20px;
+}
+
+/* Filter Sections */
+.fridge-filter-section {
+  margin-bottom: 24px;
+}
+
+.fridge-filter-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+  color: #333;
+}
+
+/* Checkbox Rows */
+.fridge-checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  margin-bottom: 0px;
+  cursor: pointer;
+  padding-top: 4px;
+}
+
+.fridge-checkbox-row:hover {
+  background-color: #f8f9fa;
+  border-radius: 4px;
+  padding-left: 8px;
+}
+
+.fridge-checkbox-row input {
+  width: 16px;
+  height: 16px;
+  accent-color: #007bff;
+  padding-top: 10px;
+  margin-top: 20px;
+}
+
+/* Price Inputs */
+.fridge-price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.fridge-price-box {
+  border: 1px solid #dddddd;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 4px;
+  background: #f8f9fa;
+  min-width: 70px;
+  text-align: center;
+}
+
+.fridge-price-separator {
+  font-size: 18px;
+  font-weight: bold;
+  color: #666;
+}
+
+.fridge-price-slider {
+  width: 100%;
+  height: 6px;
+  border-radius: 3px;
+  background: #e9ecef;
+  outline: none;
+  accent-color: #007bff;
+  margin-bottom: 12px;
+}
+
+/* Filter Button */
+.fridge-filter-button {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+  border: none;
+  padding: 10px 24px;
+  font-size: 14px;
+  font-weight: 600;
+  border-radius: 6px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
+.fridge-filter-button:hover {
+  background: linear-gradient(135deg, #0056b3, #004085);
+  transform: translateY(-1px);
+  box-shadow: 0 4px 12px rgba(0, 123, 255, 0.3);
+}
+
+/* Layout for Fridgepage */
+.fridgepage-layout {
+  display: flex;
+  gap: 20px;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.fridgepage-main {
+  flex: 1;
+}

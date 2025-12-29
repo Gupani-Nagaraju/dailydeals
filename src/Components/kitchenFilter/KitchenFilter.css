@@ -1,0 +1,137 @@
+/* Kitchen Filter Sidebar */
+.kitchen-filter-sidebar {
+  width: 280px;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #111111;
+  padding: 24px;
+  background: linear-gradient(145deg, #f8f9fa, #e9ecef);
+  height: fit-content;
+  border-radius: 16px;
+  box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+  border: 1px solid #e8ecef;
+}
+
+/* Filter Sections */
+.kitchen-filter-section {
+  margin-bottom: 28px;
+}
+
+.kitchen-filter-title {
+  font-size: 18px;
+  font-weight: 700;
+  margin-bottom: 16px;
+  color: #1a365d;
+  border-bottom: 2px solid #e2e8f0;
+  padding-bottom: 8px;
+  letter-spacing: 0.5px;
+}
+
+/* Checkbox Rows */
+.kitchen-checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  margin-bottom: 8px;
+  cursor: pointer;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: all 0.2s ease;
+}
+
+.kitchen-checkbox-row:hover {
+  background-color: #bee3f8;
+  transform: translateX(2px);
+}
+
+.kitchen-checkbox-row input {
+  width: 18px;
+  height: 18px;
+  accent-color: #4299e1;
+}
+
+/* Price Inputs */
+.kitchen-price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.kitchen-price-box {
+  border: 2px solid #cbd5e0;
+  padding: 8px 16px;
+  font-size: 15px;
+  border-radius: 8px;
+  background: white;
+  min-width: 75px;
+  text-align: center;
+  font-weight: 600;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.kitchen-price-separator {
+  font-size: 20px;
+  font-weight: bold;
+  color: #4a5568;
+}
+
+.kitchen-price-slider {
+  width: 100%;
+  height: 8px;
+  border-radius: 4px;
+  background: #e2e8f0;
+  outline: none;
+  accent-color: #4299e1;
+  margin-bottom: 16px;
+}
+
+/* Filter Button */
+.kitchen-filter-button {
+  background: linear-gradient(135deg, #4299e1, #3182ce);
+  color: white;
+  border: none;
+  padding: 14px 32px;
+  font-size: 15px;
+  font-weight: 700;
+  border-radius: 10px;
+  cursor: pointer;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  width: 100%;
+  transition: all 0.3s ease;
+  box-shadow: 0 6px 20px rgba(66, 153, 225, 0.3);
+  font-family: inherit;
+}
+
+.kitchen-filter-button:hover {
+  background: linear-gradient(135deg, #3182ce, #2b6cb0);
+  transform: translateY(-2px);
+  box-shadow: 0 10px 30px rgba(66, 153, 225, 0.4);
+}
+
+/* Layout for Kitchenpage */
+.kitchenpage-layout {
+  display: flex;
+  gap: 24px;
+  max-width: 1500px;
+  margin: 0 auto;
+  padding: 24px;
+}
+
+.kitchenpage-main {
+  flex: 1;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .kitchenpage-layout {
+    flex-direction: column;
+    gap: 16px;
+  }
+  
+  .kitchen-filter-sidebar {
+    width: 100%;
+    padding: 20px;
+  }
+}

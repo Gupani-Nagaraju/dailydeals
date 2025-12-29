@@ -1,0 +1,74 @@
+/* sidebar container */
+.books-filter-sidebar {
+  width: 260px;
+  font-family: "Roboto", Arial, sans-serif;
+  color: #111111;
+}
+
+/* sections */
+.books-filter-section {
+  margin-bottom: 24px;
+}
+
+.books-filter-title {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+/* checkbox rows */
+.books-checkbox-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  font-size: 15px;
+  margin-bottom: 6px;
+  cursor: pointer;
+}
+
+.books-checkbox-row input {
+  width: 16px;
+  height: 16px;
+  margin-top: 20px;
+}
+
+/* price section */
+.books-price-inputs {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  margin-bottom: 16px;
+}
+
+.books-price-box {
+  border: 1px solid #dddddd;
+  padding: 6px 12px;
+  font-size: 14px;
+  border-radius: 2px;
+}
+
+.books-price-separator {
+  font-size: 18px;
+}
+
+.books-price-slider {
+  width: 100%;
+  accent-color: #7b2cbf;
+  margin-bottom: 12px;
+}
+
+/* filter button */
+.books-filter-button {
+  background-color: #7b2cbf;
+  color: #ffffff;
+  border: none;
+  padding: 8px 22px;
+  font-size: 14px;
+  font-weight: 600;
+  cursor: pointer;
+  text-transform: uppercase;
+}
+
+.books-filter-button:hover {
+  background-color: #9434eb;
+}

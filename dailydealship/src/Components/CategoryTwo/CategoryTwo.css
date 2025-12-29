@@ -1,0 +1,92 @@
+/* .category-two {
+  background: #f7f4e9;
+  padding: 60px 0;
+} */
+
+.section-one {
+  text-align: left;        
+  max-width: 1900px;
+  margin-left: 65px; 
+  background-image: url(../../../public//Assets/img/time-bg.jpg);  
+  background-size: cover;  
+  margin-top: 90px;  
+}
+
+.deal-title {
+  font-size: 42px;
+  font-weight: 700;
+  color: #000;
+  margin-left: 150px;
+}
+
+.underline {
+  width: 80px;
+  height: 3px;
+  background: #7a0bc0;
+  margin: 10px 0 25px 0; 
+  margin-left: 260px;
+}
+
+.deal-desc {
+  color: #555;
+  font-size: 16px;
+  line-height: 1.6;
+  max-width: 500px;
+  margin-left: 60px;
+}
+
+.deal-price {
+  margin-top: 25px;
+  color: #7a0bc0;
+  font-size: 28px;
+  font-weight: 700;
+  margin-left: 230px;
+}
+
+.timer-boxes {
+  display: flex;
+  gap: 25px;
+  margin-top: 35px;
+  margin-left: 65px;
+}
+
+.time-card {
+  background: #fff;
+  width: 90px;
+  padding: 15px 0;
+  border-radius: 6px;
+  text-align: center;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+
+}
+
+.time-card h4 {
+  color: #7a0bc0;
+  font-size: 28px;
+  margin: 0;
+  
+}
+
+.time-card span {
+  font-size: 12px;
+  color: #777;
+  letter-spacing: 1px;
+}
+
+.shop-btn {
+  margin-top: 40px;
+  background: #7a0bc0;
+  color: #fff;
+  padding: 12px 35px;
+  border: none;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  border-radius: 4px;
+  text-transform: uppercase;
+  margin-left: 220px;
+}
+
+.shop-btn:hover {
+  background: #5b0895;
+}
